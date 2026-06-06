@@ -1,0 +1,22 @@
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(0,0,0,.6),
+      rgba(0,0,0,.6)
+    ),
+    url("https://picsum.photos/1920/1080");
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
