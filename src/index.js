@@ -14,7 +14,6 @@ import RegisterPage from './Register';
 import Dashboard from './Admin/Deshboard';
 import AdminLogin from './Admin/Adminlogin';
 import Courses from './Admin/Course';
-import AddCourse from './Admin/Addcourses';
 import './style.css'
 import { HelmetProvider } from 'react-helmet-async';
 import Hero from './Hero';
@@ -31,7 +30,6 @@ root.render(
       <Route path='/dashboard' element={<Dashboard/>}/>
          <Route path='/adminlogin' element={<AdminLogin/>}/>
            <Route path='/course' element={<Courses/>}/>
-          < Route path='/addcourse' element={<AddCourse/>}/>
  </Routes>
  </BrowserRouter>
 );
