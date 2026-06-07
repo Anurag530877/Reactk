@@ -1,17 +1,15 @@
 import { useState } from "react";
-import { useActionData } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 export default function RegisterPage(){
-    const navgate=useNavigate()
+  
     const[user,setUser]=useState(
         {
             fname:"",
             email:"",
-            password:"",
+            mobile:"",
             username:"",
             password:""   
-             }
+            }
     )
     const inputHandlar=(e)=>{
         setUser({...user,[e.target.name]:e.target.value})

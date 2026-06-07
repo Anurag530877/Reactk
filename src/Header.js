@@ -1,8 +1,7 @@
  import LanguageSwitche from "./LanguageSwitche"
  import { useTranslation } from "react-i18next";
- import LoginPage from "./Login";
- import i18n from "./i18n"
 import { Link } from "react-router-dom";
+import "./i18n";
  export default function HeaderPage({ theme, toggleTheme }){
   
   const {t}=useTranslation();
@@ -27,8 +26,8 @@ import { Link } from "react-router-dom";
 
  <nav className="navbar  navbar-expand-lg navbar-warning bg-warning sticky-top"> 
       <div className="container">
-        <a className="  navbar-brand fw-bold text-dark" href="#">
-         {t(" TechBusiness")}
+        <a className="navbar-brand fw-bold text-dark" href="https://google.com">
+          TechBusiness
         </a>
 
         <button

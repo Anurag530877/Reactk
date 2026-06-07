@@ -1,7 +1,5 @@
-import Dashboard from "./Admin/Deshboard";
-import { useNavigate } from "react-router-dom";
+
 export default function Services() {
-const navigate=useNavigate();
   const services = [
     "Web Design",
     "Web Development",
